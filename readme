@@ -1,0 +1,20 @@
+
+
+-------------------拉取项目------------------
+1，如果是第一次，文件夹下没有.git，则执行以下
+git init
+git remote add origin https://gitee.com/hyd998877/niuniu.git
+2, 否则执行，更新项目
+git pull
+或
+git pull origin master
+
+
+-------------------提交项目------------------
+1，添加修改的文件
+git add .
+2，编写注释
+git commit -m "linheng 第一次体积"
+3，提交修改到服务器master分支
+git push -u origin master
+
